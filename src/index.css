@@ -1,8 +1,8 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 #root{
-    background: rgb(242, 242, 242,1);
-    font-family: "";
+    /* background: rgb(242, 242, 242,1); */
+    background-color: white;
 }
 .poppins-thin {
     font-family: "Poppins", serif;

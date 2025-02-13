@@ -8,17 +8,17 @@ function Header() {
         <div className="logo font-extrabold poppins-extrabold text-black text-4xl dark:text-white">DevSphere </div>
         <div className="poppins-medium flex gap-10 items-center">
           <NavLink to={"/"} className={({ isActive }) =>
-         isActive ? "text-blue-400 font-bold" : ""
+         isActive ? "text-blue-600 font-bold" : ""
         }>
             Home
           </NavLink>
           <NavLink to={"/AboutUs"} className={({ isActive }) =>
-         isActive ? "text-blue-400 font-bold" : ""
+         isActive ? "text-blue-600 font-bold" : ""
         }>
             About Us
           </NavLink>
           <NavLink to={"/ContactUs"} className={({ isActive }) =>
-         isActive ? "text-blue-400" : ""
+         isActive ? "text-blue-600" : ""
         }>
             Contact Us
           </NavLink>
