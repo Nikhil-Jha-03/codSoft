@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Header() {
   return (
-    <div className='innerCompo w-[90%] m-auto p-5 pt-10 flex justify-between'>
+    <div className='innerCompo w-[90%] m-auto p-5 pt-10 flex justify-between sticky top-0 backdrop-blur-lg bg-white/50 transition-all duration-300'>
       <div className="leftSide flex items-center gap-20">
         <div className="logo font-extrabold poppins-extrabold text-black text-4xl dark:text-white">DevSphere </div>
         <div className="poppins-medium flex gap-10 items-center">
